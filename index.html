@@ -17,6 +17,18 @@ ul,li{list-style: none;}
 #lovexin12 img,#lovexin14 img{width:200px;}
 }
 </style>
+  
+ <script>
+function loadCSS() {
+if ((navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|wOSBrowser|BrowserNG|WebOS)/i))) {
+document.write('<link href="phone.css" rel="stylesheet" type="text/css" media="screen" />');
+}else {
+document.write('<link href="pc.css" rel="stylesheet" type="text/css" media="screen" />');
+}
+}
+loadCSS();
+</script>
+
 
 </head>
 
